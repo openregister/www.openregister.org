@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Identifiers</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/identifiers.html">
+  </head>
+
+  <body>
+
+    <header>
+        <h1><a class="site-title" href="/">Register design patterns</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            
+              
+                <li><a href="/identifiers.html">Identifiers</a></li>
+              
+            
+              
+            
+              
+                <li><a href="/register_types.html">Types of register</a></li>
+              
+            
+              
+            
+              
+            
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <article>
+
+<h1 class="post-title">Identifiers</h1>
+
+<!-- TODO
+Why do we need IDs at all?
+What does it identify (What is the thing?
+How to do this in Excel?
+Existing IDs
+
+-->
+<h2 class="no_toc" id="summery">Summery</h2>
+
+<p>Identifiers:</p>
+
+<ul>
+  <li><strong>Must</strong> be unique within the register</li>
+  <li><strong>Should Not</strong> be a 3rd party ID that has restrictions on reuse</li>
+  <li><strong>Should Not</strong> be derived from other fields in the row</li>
+  <li><strong>Should</strong> consider readability</li>
+</ul>
+
+<p>Identifiers are used to distinguish each “thing” in a register. When adopting or creating an ID system, it’s important to consider how they are created, used and reused.</p>
+
+<p>The <strong>creation</strong> step considers how a new ID is issued. In the simplest case of a small list with fewer than 100 things in, a number next to each thing in the list will do. As long as the numbers stay next to that thing, it can be used as an identifier. When a new thing is created, the identifier becomes the next number in the sequence.</p>
+
+<p>It’s important that IDs remain the same for each thing, even if a list is remade by you or someone else. With the system above, only you are able to issue a new ID when a new thing is added. Of course someone else could do this in their copy, but they won’t be sure that you haven’t issued the same ID to a different thing.</p>
+
+<p>This process of issuing IDs in a single list makes you an <em>ID issuing authority</em> for this list of things. No one else can add to your ID system for this list, and therefore anyone reusing the list is dependant on you to maintain it.</p>
+
+<p>Sometimes there will be information in your list that might look like an ID already. This means you might not need to invent your own ID, but it does mean that you need to evaluate the quality of the information first.</p>
+
+<p>The first thing to ask is ‘who is the ID issuing authority’ for the pre-existing ID?</p>
+
+<p>For example, if you have a list of buildings, they might all have a postcode. Postcodes are issued by Royal Mail as a way of grouping properties together to aid with the logistics of postal delivery.  They have invented their own ID system for the UK that works for their list of things (areas that can get post).</p>
+
+<p>This means they aren’t an identifier for your building, rather they identify how Royal Mail might deliver post to your building. If Royal Mail change their postcode system you will have to up date your identifiers, and that might cause problems later on. Also consider other properties of postcodes, for example, they more than one building has the same postcode.</p>
+
+<p>Because of this, postcodes don’t make good unique identifiers for buildings.</p>
+
+<p>There are many other examples where 3rd parties have identifiers, and in each case work must be done to evaluate how reliable the system is.</p>
+
+<h2 id="derived--identifiers">Derived  Identifiers</h2>
+
+<p>Sometimes a list of things might contain an identifier for other identifiable things. For example, a list of schools might contain a local authority that manages that school.</p>
+
+<p>It’s tempting to use this ID when creating your ID system. This would allow users of the ID to understand more about the thing, just by looking at the ID.</p>
+
+<p>For example, a school might exist in a local authority with an ID of 42. This means you could make an ID that looks something like <code class="highlighter-rouge">42-01</code> for the first school in that authority, <code class="highlighter-rouge">42-02</code> for the next, and so on.</p>
+
+<p>This system has the advantage that the authority is known by looking at the ID, but you are still in control of issuing new IDs.</p>
+
+<p>In this example, you must still ask questions about the ID issuing authority. How will your IDs change if two local authorities merge in to one? If the authority changes its name or boundaries, does it get a new ID?</p>
+
+<p>If you are making IDs about a list of thing that you control, it is best to avoid relying on other IDs, unless you are sure the other ID system will work with your list when it’s changed.</p>
+
+<h2 id="3rd-party-identifiers">3rd party identifiers</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h2 id="slugs">“Slugs”</h2>
+
+<p><a href="https://en.m.wikipedia.org/wiki/Slug_(publishing)">“Slugs”</a> are bits of text that have been changed to remove some characters and are typically converted to lower case. For example, the phrase “This is a Slug!” might be converted to “this-is-a-slug”. It’s common to see a slug of a headline used in URLs on news websites.</p>
+
+<p>Slugs should not be used as IDs, and should be avoided in lists of things altogether.</p>
+
+<p>This is because there is no standard way to create slugs, and each slug implementation can produce different results. Information in your list of things shouldn’t be tied to an implementation of an algorithm.</p>
+
+<p>Even within a single implementation they can cause confusion or create collisions that lead to ambiguity. For example, consider the following:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>slugify("3/4 HOPKIN STREET")
+slugify("34 HOPKIN STREET")
+</code></pre>
+</div>
+
+<p>Because most slugging algorithms simply remove characters that aren’t letters, both of these examples would result in the same slug, but clearly have different meanings.</p>
+
+<p>Slugs can be useful at the service level, but it is best to let each service create their own slugs as they need them.</p>
+
+<h2 id="readability">Readability</h2>
+
+<p>Your ID might end up being <strong>used</strong> by people who need to write it down, or read it over the phone. Sometimes people might need to remember your ID in order to make it useful. See the postcode example above – imagine if each postcode was a seemingly random list of 30 numbers and letters.</p>
+
+
+
+</article>
+
+    </main>
+
+  </body>
+
+</html>
