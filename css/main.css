@@ -1,0 +1,103 @@
+html {
+  font-size: 125%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #222;
+  font-size: calc(112.5% + 0.2vw)
+}
+
+* {
+  margin: 0;
+}
+
+* + * {
+  margin-top: 1.5em;
+}
+
+body, br, li, dt, dd, th, td, option {
+  margin-top: 0;
+}
+
+body > * {
+    max-width:33em;
+    clear:both;
+    margin:0 auto;
+    padding:0.5em;
+}
+
+header {
+  text-align: center;
+  margin-bottom: -1rem; /* adjusts for leftover bottom margin of children */
+}
+
+header a {
+    text-decoration:none;
+}
+
+h2 {
+    font-size:1.2rem;
+}
+h2 + * {
+    margin-top:0.2em;
+}
+
+nav ul li {
+    padding:0 0.5em;
+    list-style-type:none;
+    display:inline-block;
+}
+
+
+abbr {
+      color: #444;
+    text-decoration: none;
+    text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
+    background-image: linear-gradient(#444, #444), linear-gradient(#444, #444), linear-gradient(#444, #444);
+    background-size: .05em 1px, .05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: 0% 90%, 100% 90%, 0% 90%;
+}
+
+abbr::selection {
+    text-shadow: 0.03em 0 #EEE, -0.03em 0 #EEE, 0 0.03em #EEE, 0 -0.03em #EEE, 0.06em 0 #EEE, -0.06em 0 #EEE, 0.09em 0 #EEE, -0.09em 0 #EEE, 0.12em 0 #EEE, -0.12em 0 #EEE, 0.15em 0 #EEE, -0.15em 0 #EEE;
+    background-color: #EEE;
+}
+
+abbr::-moz-selection {
+    text-shadow: 0.03em 0 #000000, -0.03em 0 #000000, 0 0.03em #000000, 0 -0.03em #000000, 0.06em 0 #000000, -0.06em 0 #000000, 0.09em 0 #000000, -0.09em 0 #000000, 0.12em 0 #000000, -0.12em 0 #000000, 0.15em 0 #000000, -0.15em 0 #000000;
+    background-color: #000000;
+}
+
+a {
+    color: #a00000;
+    text-decoration: none;
+    text-shadow: 0.03em 0 #ffffff, -0.03em 0 #ffffff, 0 0.03em #ffffff, 0 -0.03em #ffffff, 0.06em 0 #ffffff, -0.06em 0 #ffffff, 0.09em 0 #ffffff, -0.09em 0 #ffffff, 0.12em 0 #ffffff, -0.12em 0 #ffffff, 0.15em 0 #ffffff, -0.15em 0 #ffffff;
+    background-image: linear-gradient(#444, #444), linear-gradient(#444, #444), linear-gradient(#444, #444);
+    background-size: .05em 1px, .05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: 0% 90%, 100% 90%, 0% 90%;
+}
+
+a::selection {
+    text-shadow: 0.03em 0 #EEE, -0.03em 0 #EEE, 0 0.03em #EEE, 0 -0.03em #EEE, 0.06em 0 #EEE, -0.06em 0 #EEE, 0.09em 0 #EEE, -0.09em 0 #EEE, 0.12em 0 #EEE, -0.12em 0 #EEE, 0.15em 0 #EEE, -0.15em 0 #EEE;
+    background-color: #EEE;
+}
+
+a::-moz-selection {
+    text-shadow: 0.03em 0 #000000, -0.03em 0 #000000, 0 0.03em #000000, 0 -0.03em #000000, 0.06em 0 #000000, -0.06em 0 #000000, 0.09em 0 #000000, -0.09em 0 #000000, 0.12em 0 #000000, -0.12em 0 #000000, 0.15em 0 #000000, -0.15em 0 #000000;
+    background-color: #000000;
+}
+
+a:before, article a:after,
+article a *,
+article a *:before,
+article a *:after {
+    text-shadow: none;
+}
+a:visited {
+    color: #a00000;
+}
+
+img {
+    max-width:100%;
+}
