@@ -34,11 +34,19 @@ header a {
     text-decoration:none;
 }
 
+header + main {
+    margin-top:1.5em;
+}
+
 h2 {
     font-size:1.2rem;
 }
 h2 + * {
     margin-top:0.2em;
+}
+
+nav {
+      margin-top:0;
 }
 
 nav ul li {
