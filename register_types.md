@@ -10,7 +10,7 @@ This is the simplest type of register. A single person maintains a list of thing
 ## 2: Service maintaining register
 ![Diagram showing the creation process from service to register and back to  services, with a custodian performing a QA role](images/register-type-2.svg)
 
-This form of register is created using a service, and the custodian performs a quality assurance role. For example, a register of companies would be created from the _register a company_ service, but how that service is managed is the job of the custodian.
+This form of register is created using a service, and the custodian performs a quality assurance role. For example, a register of companies could be created from the _register a company_ service. The job of the custodian would be to manage how data gets from that service into the register, to ensure the timeliness of that information becoming part of the register, and to ensure the register is accurate.
 
 ## 3: Multiple custodians, aggregated register
 ![Register Type 1](images/register-type-3.svg)
