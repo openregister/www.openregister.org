@@ -1,15 +1,15 @@
 ---
 layout: page
-redirect_from: "/benfits"
-redirect_from: "/demos"
-redirect_from: "/developer"
-redirect_from: "/running-registers"
-redirect_from: "/using-registers"
-redirect_from: "/composition-of-registers"
-redirect_from: "/how-registers-work"
-redirect_from: "/list_of_registers"
+redirect_from:
+  - /benfits
+  - /demos
+  - developer
+  - /running-registers
+  - /using-registers
+  - /composition-of-registers
+  - /how-registers-work
+  - /list_of_registers
 ---
-
 
 ## Guidance
 
@@ -65,9 +65,10 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <dt><a href="/registers/discovery">Discovery registers</a></dt>
 </dl>
 
-## Specifications
+## Documentation
 <dl>
 <dt><a href="https://openregister.github.io/specification/">Platform technical specification</a></dt>
+<dt><a href="/patterns/">Data and other design patterns</a></dt>
 </dl>
 
 ## Source code
@@ -75,10 +76,8 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <p>The registers platform and associated products are being developed as open source software under the <a href="https://github.com/openregister">openregister</a> GitHub organisation.
 We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/master/pull-requests.md">contributions</a>.</p>
 <dl>
-    <dt>
-    <a href="https://github.com/openregister?utf8=%E2%9C%93&q=-data">Data repositories</a>
-    <dt>
-    <a href="https://github.com/openregister?utf8=%E2%9C%93&q=-demo">Demonstrations</a></dt>
+<dt><a href="https://github.com/openregister?utf8=%E2%9C%93&q=-data">Data repositories</a></dt>
+<dt><a href="https://github.com/openregister?utf8=%E2%9C%93&q=-demo">Demonstrations</a></dt>
 </dl>
 
 
@@ -90,7 +89,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <a href="https://gdstechnology.blog.gov.uk">GDS technology</a>, and other blogs.</p>
 <dl>
 <dt><a href="https://gds.blog.gov.uk/2015/09/01/registers-authoritative-lists-you-can-trust/">Registers, authoritative lists you can trust</a></dt>
-<dt><a href="https://gds.blog.gov.uk/2015/10/13/the-characteristics-of-a-register/">The characteristics of a register</a>
+<dt><a href="https://gds.blog.gov.uk/2015/10/13/the-characteristics-of-a-register/">The characteristics of a register</a></dt>
 <dt><a href="https://gdstechnology.blog.gov.uk/2015/10/13/guaranteeing-the-integrity-of-a-register/">Guaranteeing the integrity of a register</a></dt>
 <dt><a href="https://gds.blog.gov.uk/2015/12/16/linking-registers/">Linking registers</a></dt>
 <dt><a href="https://gds.blog.gov.uk/2015/11/03/making-data-a-public-asset-through-infrastructure/">Making data a public asset through infrastructure</a></dt>
@@ -107,6 +106,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt><a href="https://data.blog.gov.uk/2016/07/19/writing-an-introduction-to-registers/">Writing an introduction to registers</a></dt>
 </dl>
 
+
 ## Demos
 
 <dl>
@@ -116,6 +116,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt><a href="http://openregister-food-ratings-demo.herokuapp.com/">Food premises ratings</a></dt>
 <dd><a href="https://github.com/openregister/food-ratings-demo">Python/Flask application</a> used during the discovery of potential food premises and ratings registers.</dd>
 </dl>
+
 
 ## Presentations
 <dl>
@@ -131,7 +132,3 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qR79NsxpcbY" frameborder="0" allowfullscreen></iframe>
 </dd>
 </dl>
-
-</div>
-</div>
-</section>
