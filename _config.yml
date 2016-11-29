@@ -27,3 +27,14 @@ defaults:
 
 gems:
   - jekyll-redirect-from
+
+jekyll_get:
+  - data: discovery_register
+    json: 'https://register.discovery.openregister.org/records.json?page-size=5000'
+    cache: true
+  - data: alpha_register
+    json: 'https://register.alpha.openregister.org/records.json?page-size=5000'
+    cache: true
+  - data: beta_register
+    json: 'https://register.beta.openregister.org/records.json?page-size=5000'
+    cache: true
