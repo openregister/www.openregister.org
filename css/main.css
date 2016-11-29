@@ -34,8 +34,10 @@ header a {
     text-decoration:none;
 }
 
+
 header + main {
     margin-top:1.5em;
+
 }
 
 h2 {
