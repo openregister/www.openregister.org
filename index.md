@@ -60,15 +60,15 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 
 ## Registers
 <dl>
-<dt><a href="/registers/beta">Beta and live registers</a></dt>
-<dt><a href="/registers/alpha">Alpha registers</a></dt>
-<dt><a href="/registers/discovery">Discovery registers</a></dt>
+<dt><a href="{{ site.baseurl }}/registers/beta">Beta and live registers</a></dt>
+<dt><a href="{{ site.baseurl }}/registers/alpha">Alpha registers</a></dt>
+<dt><a href="{{ site.baseurl }}/registers/discovery">Discovery registers</a></dt>
 </dl>
 
 ## Documentation
 <dl>
 <dt><a href="https://openregister.github.io/specification/">Platform technical specification</a></dt>
-<dt><a href="/patterns/">Data and other design patterns</a></dt>
+<dt><a href="{{ site.baseurl }}/patterns/">Data and other design patterns</a></dt>
 </dl>
 
 ## Source code
