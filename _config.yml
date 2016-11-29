@@ -3,14 +3,24 @@ baseurl: "/register-design-patterns" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE
+  - vendor
 
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
+# tag_page_layout: tag_page
+# tag_page_dir: tag
+# tag_permalink_style: pretty
+
+collections:
+  pattern:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pattern
+    values:
+      layout: pattern_single

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>{{ page.pattern|capitalize }}</h1>
+{% for pattern in page.patterns %}
+<h2>{{ pattern.title }} <a href="{{ pattern.url | relative_url }}">#</a></h2>
+{{ pattern.content }}
+
+{% endfor %}
