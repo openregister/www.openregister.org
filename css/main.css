@@ -1,9 +1,12 @@
 html {
-  font-size: 125%;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  line-height: 1.5;
-  color: #222;
-  font-size: calc(112.5% + 0.2vw)
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  color: #0B0C0C;
+  font-size: 1rem;
+  line-height: 1.6;
+  line-height: 1.31579;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -19,15 +22,17 @@ body, br, li, dt, dd, th, td, option {
 }
 
 .page_inner {
-    max-width:40em;
+    max-width: 80%;
+    width: 100%;
     clear:both;
     margin:0 auto;
-    padding:0.5em;
 }
 
 header {
-  background-color:#005EA5;
-  padding: 2em; /* adjusts for leftover bottom margin of children */
+  background-color:#2b8cc4;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 header a {
@@ -45,11 +50,15 @@ h1, h2, h3 {
 }
 
 body > header h1 {
-  font-weight: normal;
+  font-weight: bold;
+  font-size:3.2rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size:1.2rem;
+    font-size: 2.3125rem;
+    line-height: 1.4;
+    margin-top:2.3125rem;
     font-weight:normal;
 }
 h2 + * {
@@ -84,6 +93,39 @@ body > header a, body > header a:visited {
 
 img {
     max-width:100%;
+}
+
+p {
+  color: #0B0C0C;
+  margin-top:0.3125em;
+  margin-bottom:1.25em;
+  font-size: 1em;
+}
+
+a,
+a:visited {
+  color:#005EA5;
+}
+
+dl {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style-position: outside;
+  margin-bottom: 1.25rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 0.75rem;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
 }
 
 footer {
