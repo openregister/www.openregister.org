@@ -1,5 +1,13 @@
 ---
 layout: page
+redirect_from: "/benfits"
+redirect_from: "/demos"
+redirect_from: "/developer"
+redirect_from: "/running-registers"
+redirect_from: "/using-registers"
+redirect_from: "/composition-of-registers"
+redirect_from: "/how-registers-work"
+redirect_from: "/list_of_registers"
 ---
 
 

@@ -24,3 +24,6 @@ defaults:
       type: pattern
     values:
       layout: pattern_single
+
+gems:
+  - jekyll-redirect-from
