@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Summery</title>
+
+    <link rel="stylesheet" href="/register-design-patterns/css/main.css">
+    <link rel="canonical" href="/register-design-patterns/pattern/summery.html">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="page_inner">
+            <h1><a class="site-title" href="/register-design-patterns/">Register design patterns</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/register-design-patterns/">Home</a></li>
+                
+                  
+                    <li><a href="/register-design-patterns/patterns/">Patterns</a></li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="page_inner">
+        <article>
+
+
+<h1 class="post-title">Summery</h1>
+
+<div class="topic">
+<p>Identifiers:</p>
+
+<ul>
+  <li><strong>Must</strong> be unique within the register</li>
+  <li><strong>Should Not</strong> be a 3rd party ID that has restrictions on reuse</li>
+  <li><strong>Should Not</strong> be derived from other fields in the row</li>
+  <li><strong>Should</strong> consider readability</li>
+</ul>
+
+<p>Identifiers are used to distinguish each “thing” in a register. When adopting or creating an ID system, it’s important to consider how they are created, used and reused.</p>
+
+<p>The <strong>creation</strong> step considers how a new ID is issued. In the simplest case of a small list with fewer than 100 things in, a number next to each thing in the list will do. As long as the numbers stay next to that thing, it can be used as an identifier. When a new thing is created, the identifier becomes the next number in the sequence.</p>
+
+<p>It’s important that IDs remain the same for each thing, even if a list is remade by you or someone else. With the system above, only you are able to issue a new ID when a new thing is added. Of course someone else could do this in their copy, but they won’t be sure that you haven’t issued the same ID to a different thing.</p>
+
+<p>This process of issuing IDs in a single list makes you an <em>ID issuing authority</em> for this list of things. No one else can add to your ID system for this list, and therefore anyone reusing the list is dependant on you to maintain it.</p>
+
+<p>Sometimes there will be information in your list that might look like an ID already. This means you might not need to invent your own ID, but it does mean that you need to evaluate the quality of the information first.</p>
+
+<p>The first thing to ask is ‘who is the ID issuing authority’ for the pre-existing ID?</p>
+
+<p>For example, if you have a list of buildings, they might all have a postcode. Postcodes are issued by Royal Mail as a way of grouping properties together to aid with the logistics of postal delivery.  They have invented their own ID system for the UK that works for their list of things (areas that can get post).</p>
+
+<p>This means they aren’t an identifier for your building, rather they identify how Royal Mail might deliver post to your building. If Royal Mail change their postcode system you will have to up date your identifiers, and that might cause problems later on. Also consider other properties of postcodes, for example, they more than one building has the same postcode.</p>
+
+<p>Because of this, postcodes don’t make good unique identifiers for buildings.</p>
+
+<p>There are many other examples where 3rd parties have identifiers, and in each case work must be done to evaluate how reliable the system is.</p>
+
+
+
+
+
+</div>
+
+
+</article>
+
+    </main>
+
+    <footer>
+        <div class="page_inner">
+            <a href="https://github.com/openregister/register-design-patterns">Edit on github</a>
+        </div>
+    </footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Slugs</title>
+
+    <link rel="stylesheet" href="/register-design-patterns/css/main.css">
+    <link rel="canonical" href="/register-design-patterns/pattern/slugs.html">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="page_inner">
+            <h1><a class="site-title" href="/register-design-patterns/">Register design patterns</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/register-design-patterns/">Home</a></li>
+                
+                  
+                    <li><a href="/register-design-patterns/patterns/">Patterns</a></li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="page_inner">
+        <article>
+
+
+<h1 class="post-title">Slugs</h1>
+
+<div class="topic">
+<p><a href="https://en.m.wikipedia.org/wiki/Slug_(publishing)">“Slugs”</a> are bits of text that have been changed to remove some characters and are typically converted to lower case. For example, the phrase “This is a Slug!” might be converted to “this-is-a-slug”. It’s common to see a slug of a headline used in URLs on news websites.</p>
+
+<p>Slugs should not be used as IDs, and should be avoided in lists of things altogether.</p>
+
+<p>This is because there is no standard way to create slugs, and each slug implementation can produce different results. Information in your list of things shouldn’t be tied to an implementation of an algorithm.</p>
+
+<p>Even within a single implementation they can cause confusion or create collisions that lead to ambiguity. For example, consider the following:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>slugify("3/4 HOPKIN STREET")
+slugify("34 HOPKIN STREET")
+</code></pre>
+</div>
+
+<p>Because most slugging algorithms simply remove characters that aren’t letters, both of these examples would result in the same slug, but clearly have different meanings.</p>
+
+<p>Slugs can be useful at the service level, but it is best to let each service create their own slugs as they need them.</p>
+
+
+
+
+</div>
+
+
+</article>
+
+    </main>
+
+    <footer>
+        <div class="page_inner">
+            <a href="https://github.com/openregister/register-design-patterns">Edit on github</a>
+        </div>
+    </footer>
+
+
+  </body>
+
+</html>
