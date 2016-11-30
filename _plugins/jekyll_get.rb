@@ -3,6 +3,7 @@
 
 require 'json'
 require 'open-uri'
+require 'fileutils'
 
 module Jekyll_Get
   class Generator < Jekyll::Generator
@@ -18,8 +19,8 @@ module Jekyll_Get
         config = [config]
       end
       config.each do |d|
-        data_source = (site.config['data_source'] || '_data')
-        path = "#{data_source}/#{d['data']}.json"
+        data_dir = (site.config['data_dir'] || '_data')
+        path = "#{data_dir}/#{d['data']}.json"
         if d['cache'] && File.exists?(path)
           source = JSON.load(File.open(path))
         else
@@ -27,6 +28,7 @@ module Jekyll_Get
         end
         site.data[d['data']] = source
         if d['cache']
+          FileUtils.mkdir_p site.config['data_dir']
           open(path, 'wb') do |file|
             file << JSON.generate(site.data[d['data']])
           end
