@@ -17,17 +17,17 @@
     <header>
         <div class="page_inner">
             <h1><a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a></h1>
-            {% if my_page.title == 'Home' %}
             <nav>
                 <ul>
                 {% for my_page in site.pages %}
-                  {% if my_page.title %}
+                  {% if my_page.title%}
+                  {% unless my_page.show_in_nav == false %}
                     <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                  {% endunless %}
                   {% endif %}
                 {% endfor %}
                 </ul>
             </nav>
-            {% endif %}
         </div>
     </header>
 

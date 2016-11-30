@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Beta Registers
+show_in_nav: false
 ---
 
 {% assign phase = 'Beta' %}

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Alpha Registers
+show_in_nav: false
 ---
 
 {% assign phase = 'alpha' %}

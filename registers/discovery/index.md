@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Discovery Registers
+show_in_nav: false
 ---
 
 {% assign phase = 'discovery' %}
