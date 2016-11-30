@@ -4,11 +4,11 @@ layout: page
 <div class="topic">
 {{ content }}
 
-{% if page.patterns %}
-<h4>See also:</h4>
+{% if page.topics %}
+<h4>Part of:</h4>
 <ul>
-{% for topic in page.topics %}
-    <li><a href="{{site.baseurl}}/patterns/{{ topic }}">{{ topic|capitalize }}</a></li>
+{% for patten in page.topics %}
+    <li><a href="{{site.baseurl}}/patterns/{{ patten }}">{{ patten|capitalize }}</a></li>
 {% endfor %}
 </ul>
 {% endif %}
