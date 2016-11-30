@@ -8,8 +8,8 @@
 
     <title>Registers</title>
 
-    <link rel="stylesheet" href="/register-design-patterns/css/main.css">
-    <link rel="canonical" href="/register-design-patterns/patterns/Types%20of%20register/">
+    <link rel="stylesheet" href="/www.openregister.org/css/main.css">
+    <link rel="canonical" href="/www.openregister.org/patterns/Types%20of%20register/">
   </head>
 
   <body>
@@ -17,7 +17,7 @@
     <header>
         <div class="page_inner">
             
-            <h1><a class="site-title" href="/register-design-patterns/">Registers</a></h1>
+            <h1><a class="site-title" href="/www.openregister.org/">Registers</a></h1>
             <nav>
                 <ul>
                 
@@ -35,13 +35,13 @@
                 
                   
                   
-                    <li><a href="/register-design-patterns/registers/">Registers</a></li>
+                    <li><a href="/www.openregister.org/registers/">Registers</a></li>
                   
                   
                 
                   
                   
-                    <li><a href="/register-design-patterns/patterns/">Patterns</a></li>
+                    <li><a href="/www.openregister.org/patterns/">Patterns</a></li>
                   
                   
                 
@@ -83,29 +83,29 @@
     <main class="page_inner">
         <h1>Types of register</h1>
 
-<h2>1: Simple list, single custodian <a href="/register-design-patterns/pattern/1_simple-list.html">#</a></h2>
-<p><img src="/register-design-patterns/images/register-type-1.svg" alt="Diagram showing the creation process from custodian to register to services" /></p>
+<h2>1: Simple list, single custodian <a href="/www.openregister.org/pattern/1_simple-list.html">#</a></h2>
+<p><img src="/www.openregister.org/images/register-type-1.svg" alt="Diagram showing the creation process from custodian to register to services" /></p>
 
 <p>This is the simplest type of register. A single person maintains a list of things and publishes it to a register for services to use. The <a href="http://country.beta.openregister.org/">country register</a> is an example of this.</p>
 
 
 
-<h2>2: Service maintaining register <a href="/register-design-patterns/pattern/2_service-maintaining-register.html">#</a></h2>
-<p><img src="/register-design-patterns/images/register-type-2.svg" alt="Diagram showing the creation process from service to register and back to  services, with a custodian performing a QA role" /></p>
+<h2>2: Service maintaining register <a href="/www.openregister.org/pattern/2_service-maintaining-register.html">#</a></h2>
+<p><img src="/www.openregister.org/images/register-type-2.svg" alt="Diagram showing the creation process from service to register and back to  services, with a custodian performing a QA role" /></p>
 
 <p>This form of register is created using a service, and the custodian performs a quality assurance role. For example, a register of companies could be created from the <em>register a company</em> service. The job of the custodian would be to manage how data gets from that service into the register, to ensure the timeliness of that information becoming part of the register, and to ensure the register is accurate.</p>
 
 
 
-<h2>3: Multiple custodians, aggregated register <a href="/register-design-patterns/pattern/3_multiple-custodians-aggregated-register.html">#</a></h2>
-<p><img src="/register-design-patterns/images/register-type-3.svg" alt="Register Type 1" /></p>
+<h2>3: Multiple custodians, aggregated register <a href="/www.openregister.org/pattern/3_multiple-custodians-aggregated-register.html">#</a></h2>
+<p><img src="/www.openregister.org/images/register-type-3.svg" alt="Register Type 1" /></p>
 
 <p>In this case <em>subsections</em> of the register are maintained by different custodians and each subsection is aggregated in to a single register. This is how AddressBase is currently created, with GeoPlace performing the aggregation.</p>
 
 
 
-<h2>4: Multiple custodian & registers, aggregated <a href="/register-design-patterns/pattern/4_multiple-custodians-aggregated-register%20copy.html">#</a></h2>
-<p><img src="/register-design-patterns/images/register-type-4.svg" alt="Register Type 1" /></p>
+<h2>4: Multiple custodian & registers, aggregated <a href="/www.openregister.org/pattern/4_multiple-custodians-aggregated-register%20copy.html">#</a></h2>
+<p><img src="/www.openregister.org/images/register-type-4.svg" alt="Register Type 1" /></p>
 
 <p>This is where more than one register is created as per type 1, but each register is the same ‘shape’ and is later aggregated by a service. Example of this might include identical registers for England Wales, Scotland and Northern Ireland that are merged in to a UK wide register.</p>
 
@@ -127,7 +127,7 @@
     </div>
 
     <div class="copyright">
-      <img src="/register-design-patterns/images/govuk_crest_grey.png"/>
+      <img src="/www.openregister.org/images/govuk_crest_grey.png"/>
       <p>© Crown copyright</p>
     </div>
   </div>
