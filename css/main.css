@@ -1,3 +1,5 @@
+---
+---
 html {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   text-rendering: optimizeLegibility;
@@ -39,6 +41,10 @@ header {
 
 header a {
     text-decoration:none;
+}
+
+header a:hover {
+    text-decoration:underline;
 }
 
 
@@ -86,7 +92,11 @@ nav ul li:first-child {
 }
 
 
-body > header a, body > header a:visited {
+body > header h1,
+body > header a,
+body > header a:visited,
+body > header a:hover,
+body > header a:active {
     color:#FFF;
 }
 
@@ -147,35 +157,47 @@ footer {
   background-color:#dee0e2;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
+  height: 240px;
 }
 
 .licensing {
   width: 83.33333%;
   float: left;
-  margin-top: 90px;
+  margin-top: 117px;
 }
 
 .copyright {
   width: 16.66667%;
   float: right;
-}
-
-.ogl-text {
-  margin-left: -45px;
+  margin-top: 50px;
 }
 
 .licensing a.logo-image {
-  background-image: url(/images/ogl_logo.png);
+  background-image: url({{ site.baseurl }}/images/ogl_logo.png);
   background-size: 41px 17px;
   background-repeat: no-repeat;
   display: inline-block;
-  text-indent: -9999em; }
+  text-indent: -9999em;
+  width: 42px;
+}
 
 @media (max-width: 800px) {
-  .page_inner {
-    max-width: 100%;
-  }
+  .page_inner,
   article {
     max-width: 100%;
+  }
+  .copyright,
+  .licensing {
+    float: none;
+    width: 100%;
+  }
+  .licensing {
+    padding-top: 2em;
+  }
+  .copyright p {
+    margin-bottom: 0;
+  }
+  footer {
+    height: 360px;
   }
 }
