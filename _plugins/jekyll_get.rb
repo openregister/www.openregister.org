@@ -2,7 +2,6 @@
 # Thanks, 18F! :)
 
 require 'json'
-require 'hash-joiner'
 require 'open-uri'
 
 module Jekyll_Get
