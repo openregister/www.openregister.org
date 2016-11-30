@@ -143,8 +143,33 @@ article {
 }
 
 footer {
+  margin-top: 60px;
   background-color:#dee0e2;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
+
+.licensing {
+  width: 83.33333%;
+  float: left;
+  margin-top: 90px;
+}
+
+.copyright {
+  width: 16.66667%;
+  float: right;
+}
+
+.ogl-text {
+  margin-left: -45px;
+}
+
+.licensing a.logo-image {
+  background-image: url(/images/ogl_logo.png);
+  background-size: 41px 17px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999em; }
 
 @media (max-width: 800px) {
   .page_inner {
