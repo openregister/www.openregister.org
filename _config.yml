@@ -1,5 +1,5 @@
 title: Registers
-baseurl: "/register-design-patterns" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 data_dir: /tmp/jekyll_data
 
 # Build settings
