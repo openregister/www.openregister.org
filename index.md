@@ -9,6 +9,7 @@ redirect_from:
   - /composition-of-registers
   - /how-registers-work
   - /list_of_registers
+underscore_: bug
 ---
 
 ## Guidance
@@ -20,11 +21,11 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <dt><a href="https://www.gov.uk/government/publications/registers/registers">An introduction to registers</a></dt>
 <dd>Find out more about how registers work and how they can benefit government service teams.</dd>
 
-<dt><a href="https://www.gov.uk/guidance/registers-becoming-a-custodian">Becoming a custodian</a></dt>
-<dd>Find out how to become the custodian of a register and what the role involves.</dd>
-
 <dt><a href="https://www.gov.uk/guidance/creating-a-register">Creating a register</a></dt>
 <dd>How you can work with Government Digital Service (GDS) to create a register.</dd>
+
+<dt><a href="https://www.gov.uk/guidance/registers-becoming-a-custodian">Becoming a custodian</a></dt>
+<dd>Find out how to become the custodian of a register and what the role involves.</dd>
 
 <dt><a href="https://www.gov.uk/guidance/using-registers-to-build-a-service">Using registers to build a service</a></dt>
 <dd>How government service teams can use registers to build digital services.</dd>
@@ -76,8 +77,14 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <p>The registers platform and associated products are being developed as open source software under the <a href="https://github.com/openregister">openregister</a> GitHub organisation.
 We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/master/pull-requests.md">contributions</a>.</p>
 <dl>
+<dt><a href="https://github.com/openregister/openregister-java">Java openregister</a></dt>
+<dd>The implementation of the server product used by the register.gov.uk platform.</dd>
+<dt><a href="https://github.com/openregister/deployment">Deployment scripts</a></dt>
+<dd>Deployment and other scripts used to operate the platform</dd>
 <dt><a href="https://github.com/openregister?utf8=%E2%9C%93&q=-data">Data repositories</a></dt>
+<dd>A collection of repositories used to prepare register data during the discovery and alpha phases.</dd>
 <dt><a href="https://github.com/openregister?utf8=%E2%9C%93&q=-demo">Demonstrations</a></dt>
+<dd>Prototypes used to test the shape of registers during the discovery and alpha phases.</dd>
 </dl>
 
 
@@ -111,10 +118,10 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 
 <dl>
 <dt><a href="https://openregister-school-demo.herokuapp.com/">School finder</a></dt>
-<dd><a href="https://github.com/openregister/school-demo">Ruby on Rails application</a> to demonstrate the alpha school registers.</dd>
+<dd>A <a href="https://github.com/openregister/school-demo">Ruby on Rails application</a> to demonstrate the alpha school registers.</dd>
 
 <dt><a href="http://openregister-food-ratings-demo.herokuapp.com/">Food premises ratings</a></dt>
-<dd><a href="https://github.com/openregister/food-ratings-demo">Python/Flask application</a> used during the discovery of potential food premises and ratings registers.</dd>
+<dd>A prototype <a href="https://github.com/openregister/food-ratings-demo">Python/Flask application</a> used during the discovery of potential food premises and ratings registers.</dd>
 </dl>
 
 
