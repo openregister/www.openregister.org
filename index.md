@@ -68,8 +68,11 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 
 ## Documentation
 <dl>
-<dt><a href="https://openregister.github.io/specification/">Platform technical specification</a></dt>
-<dt><a href="{{ site.baseurl }}/patterns/">Data and other design patterns</a></dt>
+<dt><a href="https://openregister.github.io/specification/">Technical specification</a></dt>
+<dd>A technical specification for the openregister product is being developed <a href="https://github.com/openregister/specification">GitHub</a> as a formal definition of the API, and to allow you create your own implementation of the platform.</dd>
+
+<dt><a href="{{ site.baseurl }}/patterns/">Register design patterns</a></dt>
+<dd>A wiki for sharing design patterns for using and shaping of registers, maintained on <a href="https://github.com/openregister/www.openregister.org">GitHub</a>.</dd>
 </dl>
 
 ## Source code
