@@ -4,7 +4,7 @@ title: Alpha Registers
 show_in_nav: false
 ---
 
-{% assign phase = 'alpha' %}
+{% assign phase = 'beta' %}
 
 {% for register in site.data.discovery_register %}
 
