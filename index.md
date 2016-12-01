@@ -69,7 +69,7 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 ## Documentation
 <dl>
 <dt><a href="http://open-registers-docs.readthedocs.io/en/latest/">API documentation</a></dt>
-<dd>Reference documentaion and examples is maintained on <a href="http://open-registers-docs.readthedocs.io/en/latest/">readthedocs.io</a>.</dd>
+<dd>Reference documentation and examples is maintained on <a href="http://open-registers-docs.readthedocs.io/en/latest/">readthedocs.io</a>.</dd>
 <dt><a href="https://openregister.github.io/specification/">Technical specification</a></dt>
 <dd>A technical specification for the openregister product, developed <a href="https://github.com/openregister/specification">GitHub</a> formally defines the API,
 and helps you create your own implementation of the platform.</dd>
