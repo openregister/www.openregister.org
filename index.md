@@ -64,7 +64,7 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <dt><a href="{{ site.baseurl }}/registers/beta">Beta and live registers</a></dt>
 <dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.</dd>
 <dt><a href="{{ site.baseurl }}/registers/alpha">Registers in alpha</a></dt>
-<dd>Alpha registers may have limited content, and their shape may change as a result of working with the potential custodian, and in response to wider feedback.</dd>
+<dd>Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.</dd>
 <dt><a href="{{ site.baseurl }}/registers/discovery">Registers in discovery</a></dt>
 <dd>Experimental, potential registers, which may not reach alpha.</dd>
 </dl>
