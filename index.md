@@ -114,7 +114,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt><a href="https://gds.blog.gov.uk/2015/11/03/making-data-a-public-asset-through-infrastructure/">Making data a public asset through infrastructure</a></dt>
 <dd>How registers form a part of a wider data infrastructure.</dd>
 <dt><a href="https://gds.blog.gov.uk/2016/03/11/getting-from-data-to-registers/">Getting from data to registers</a></dt>
-<dd>Our approach , standards and other documentation, and introducing the role of the Register Design Authority.</dd>
+<dd>Introducing the role of the Register Design Authority.</dd>
 <dt><a href="https://gds.blog.gov.uk/2016/03/23/an-open-address-register/">An open address register</a></dt>
 <dd>Exploring the options for an open address register.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/08/02/agreeing-a-common-language-for-registers/">Agreeing a common language for registers</a></dt>
