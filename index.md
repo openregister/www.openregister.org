@@ -62,8 +62,11 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 ## Registers
 <dl>
 <dt><a href="{{ site.baseurl }}/registers/beta">Beta and live registers</a></dt>
-<dt><a href="{{ site.baseurl }}/registers/alpha">Alpha registers</a></dt>
-<dt><a href="{{ site.baseurl }}/registers/discovery">Discovery registers</a></dt>
+<dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.</dd>
+<dt><a href="{{ site.baseurl }}/registers/alpha">Registers in alpha</a></dt>
+<dd>Alpha registers may have limited content, and their shape may change as a result of working with the potential custodian, and in response to wider feedback.</dd>
+<dt><a href="{{ site.baseurl }}/registers/discovery">Registers in discovery</a></dt>
+<dd>Experimental, potential registers, which may not reach alpha.</dd>
 </dl>
 
 ## Documentation
@@ -101,21 +104,39 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <a href="https://gdstechnology.blog.gov.uk">GDS technology</a>, and other blogs.</p>
 <dl>
 <dt><a href="https://gds.blog.gov.uk/2015/09/01/registers-authoritative-lists-you-can-trust/">Registers, authoritative lists you can trust</a></dt>
+<dd>Introducing the vision for registers following our discovery phase.</dd>
 <dt><a href="https://gds.blog.gov.uk/2015/10/13/the-characteristics-of-a-register/">The characteristics of a register</a></dt>
+<dd>Design constraints for registers following our discovery phase.</dd>
 <dt><a href="https://gdstechnology.blog.gov.uk/2015/10/13/guaranteeing-the-integrity-of-a-register/">Guaranteeing the integrity of a register</a></dt>
+<dd>Technical learnings from discovery and working with the <a href="https://github.com/google/certificate-transparency">Google Certificate Transparency</a> team.</dd>
 <dt><a href="https://gds.blog.gov.uk/2015/12/16/linking-registers/">Linking registers</a></dt>
+<dd>How registers are federated across government organisations, and the value which comes from linking between registers.</dd>
 <dt><a href="https://gds.blog.gov.uk/2015/11/03/making-data-a-public-asset-through-infrastructure/">Making data a public asset through infrastructure</a></dt>
+<dd>How registers form a part of a wider data infrastructure.</dd>
 <dt><a href="https://gds.blog.gov.uk/2016/03/11/getting-from-data-to-registers/">Getting from data to registers</a></dt>
+<dd>Our approach , standards and other documentation, and introducing the role of the Register Design Authority.</dd>
 <dt><a href="https://gds.blog.gov.uk/2016/03/23/an-open-address-register/">An open address register</a></dt>
+<dd>Exploring the options for an open address register.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/08/02/agreeing-a-common-language-for-registers/">Agreeing a common language for registers</a></dt>
+<dd>Establishing the terminology we use when describing registers.</dd>
+<dt><a href="https://data.blog.gov.uk/2016/08/09/tackling-address-matching-together/">Tackling address matching together</a></dt>
+<dd>Understanding the needs for matching addresses and sharing best practice in a cross-government community of interest.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/08/19/the-language-of-addresses/">The language of addresses</a></dt>
+<dd>Establishing the terminology we use when dealing with addresses.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/09/12/registers-in-a-digital-ecosystem/">Registers in a digital ecosystem</a></dt>
+<dd>The layers and pace of services, platforms and registers.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/10/14/introducing-the-register-history-page-tracking-a-registers-creation/">Introducing the register history page: tracking a register’s creation</a></dt>
+<dd>How the Register Design Authority records the process and decisions made when establishing a register.</dd>
 <dt><a href="https://gds.blog.gov.uk/2016/10/18/designing-the-register-creation-process/">Designing the register creation process</a></dt>
+<dd>The design process behind the Register Design Authority's service for establishing registers.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/10/28/technical-features-of-a-register/">The technical features of a register</a></dt>
+<dd>Policy and technical features which are required to create a register.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/10/31/comparing-registers-with-other-data-products/">Comparing registers with other data products</a></dt>
+<dd>How a register differs from databases and other data products.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/10/24/how-registers-emerge/">How registers emerge</a></dt>
+<dd>How the Register Design Authority is prioratising which registers to work on as the.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/07/19/writing-an-introduction-to-registers/">Writing an introduction to registers</a></dt>
+<dd>The process of writing guidance for registers on GOV.UK.</dd>
 </dl>
 
 
