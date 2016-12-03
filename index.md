@@ -134,7 +134,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt><a href="https://data.blog.gov.uk/2016/10/31/comparing-registers-with-other-data-products/">Comparing registers with other data products</a></dt>
 <dd>How a register differs from databases and other data products.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/10/24/how-registers-emerge/">How registers emerge</a></dt>
-<dd>How the Register Design Authority is prioratising which registers to work on as the.</dd>
+<dd>How the Register Design Authority prioratised which registers to work on first.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/07/19/writing-an-introduction-to-registers/">Writing an introduction to registers</a></dt>
 <dd>The process of writing guidance for registers on GOV.UK.</dd>
 </dl>
