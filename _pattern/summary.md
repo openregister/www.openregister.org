@@ -1,5 +1,5 @@
 ---
-title: "Summery"
+title: "Summary"
 topics:
   - identifiers
 ---
