@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Patterns
+redirect_from:
+  - /modelling-register-data
 ---
 
 <ul></ul>
