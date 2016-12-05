@@ -3,7 +3,7 @@ layout: page
 redirect_from:
   - /benfits
   - /demos
-  - developer
+  - /developer
   - /running-registers
   - /using-registers
   - /composition-of-registers
