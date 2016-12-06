@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Registers</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="/patterns/discovery-process/">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="page_inner">
+            
+            <h1><a class="site-title" href="/">Registers</a></h1>
+            <nav>
+                <ul>
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                    <li><a href="/registers/">Registers</a></li>
+                  
+                  
+                
+                  
+                  
+                    <li><a href="/patterns/">Patterns</a></li>
+                  
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                </ul>
+            </nav>
+            
+            <nav>
+        </div>
+    </header>
+
+    <main class="page_inner">
+        <h1>Discovery-process</h1>
+
+<h2>map <a href="/pattern/map.html">#</a></h2>
+<p>A <a href="https://en.wikipedia.org/wiki/Associative_array">map</a> is a tool for finding a record in a register record from text or codes commonly found in existing data.</p>
+
+<p>For example, the <a href="https://country.register.gov.uk">country register</a> uses the <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a> country code,
+following HMG <a href="https://www.gov.uk/government/publications/open-standards-for-government/country-codes">open standards guidance for country codes</a>.
+The following is an extract of a map for finding the appropriate register record for a given <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3">ISO 3166-1 alpha-3</a>
+code:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>alpha3</th>
+      <th>country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AFG</td>
+      <td>AF</td>
+    </tr>
+    <tr>
+      <td>ALB</td>
+      <td>AB</td>
+    </tr>
+    <tr>
+      <td>DZA</td>
+      <td>DZ</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>AD</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A number of different maps may be generated as a part of <a href="discovery-process">discovery process</a> for a register.</p>
+
+<p>A map may not be <a href="canonical">canonical</a> in the sense that there may legitimately be more than one map for a given identifier.
+For example the text “Richmond” could identify a <a href="https://en.wikipedia.org/wiki/Richmond,_North_Yorkshire">town in Yorkshire</a>,
+a <a href="https://en.wikipedia.org/wiki/Richmond,_London">suburb of London</a>, a <a href="https://local-authority-eng.register.gov.uk/record/RIC">local authority in England</a>, a <a href="https://beta.companieshouse.gov.uk/company/05640458">company name</a> or a <a href="http://beta.charitycommission.gov.uk/charity-details/?regid=200431&amp;subid=0">charity name</a>
+Different maps and possibly more data than the name will be needed to find the right entry.</p>
+
+<p>A map may itself become the basis of a register.
+For example <a href="https://registers-history.herokuapp.com/local-authority-eng">the process</a> of establishing the <a href="https://local-authority-eng.register.gov.uk/">local authority (England) register</a> 
+created a <a href="https://github.com/openregister/local-authority-data/blob/master/maps/gss.tsv">GSS to local-authortity map</a>.
+It is highly likely this code will be the key for a local authority boundary register which will link to the local-authority-eng register,
+which point the map may be generated from the canonical registers.</p>
+
+
+
+
+
+
+    </main>
+    <footer>
+  <div class="page_inner">
+    <div class="licensing">
+      <p>The source for this page is on <a href="https://github.com/openregister/register-design-patterns">GitHub</a>.
+        <a href="https://github.com/alphagov/styleguides/blob/master/pull-requests.md">Contributions</a> and feedback are welcome.</p>
+      <p>
+        <a class="logo-image" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence</a>
+        <span class="ogl-text">All content is available under the</span>
+        <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated
+      </p>
+    </div>
+
+    <div class="copyright">
+      <img src="/images/govuk_crest_grey.png"/>
+      <p>© Crown copyright</p>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </div>
+</div>
+
+  </body>
+
+</html>
