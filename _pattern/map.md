@@ -1,5 +1,7 @@
 ---
 title: map
+topics:
+  - discovery-process
 ---
 
 A [map](https://en.wikipedia.org/wiki/Associative_array) is a tool for finding a record in a register record from text or codes commonly found in existing data.
@@ -32,6 +34,6 @@ created a [GSS to local-authortity map](https://github.com/openregister/local-au
 It is highly likely this code will be the key for a local authority boundary register which will link to the local-authority-eng register,
 which point the map may be generated from the canonical registers.
 
-[local-authority-eng:RIC] https://local-authority-eng.register.gov.uk/record/RIC
-[company:05640458] https://beta.companieshouse.gov.uk/company/05640458
-[charity:200431] http://beta.charitycommission.gov.uk/charity-details/?regid=200431&subid=0
+[local-authority-eng:RIC]: https://local-authority-eng.register.gov.uk/record/RIC
+[company:05640458]: https://beta.companieshouse.gov.uk/company/05640458
+[charity:200431]: http://beta.charitycommission.gov.uk/charity-details/?regid=200431&subid=0
