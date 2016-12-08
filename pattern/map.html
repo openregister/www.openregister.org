@@ -91,7 +91,7 @@
 <h1 class="post-title">map</h1>
 
 <div class="topic">
-<p>A <a href="https://en.wikipedia.org/wiki/Associative_array">map</a> is a tool for finding a record in a register record from text or codes commonly found in existing data.</p>
+<p>A <a href="https://en.wikipedia.org/wiki/Associative_array">map</a> is a dataset which may be used to translate a name or code found in data in documents to the key used by a register.</p>
 
 <p>For example, the <a href="https://country.register.gov.uk">country register</a> uses the <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a> country code,
 following HMG <a href="https://www.gov.uk/government/publications/open-standards-for-government/country-codes">open standards guidance for country codes</a>.
@@ -129,18 +129,21 @@ code:</p>
   </tbody>
 </table>
 
-<p>A number of different maps may be generated as a part of <a href="discovery-process">discovery process</a> for a register.</p>
+<p>A number of different maps may be generated as a part of <a href="/patterns/seeding">seeding</a> a register.</p>
 
-<p>A map may not be <a href="canonical">canonical</a> in the sense that there may legitimately be more than one map for a given identifier.
-For example the text “Richmond” could identify a <a href="https://en.wikipedia.org/wiki/Richmond,_North_Yorkshire">town in Yorkshire</a>,
-a <a href="https://en.wikipedia.org/wiki/Richmond,_London">suburb of London</a>, a <a href="https://local-authority-eng.register.gov.uk/record/RIC">local authority in England</a>, a <a href="https://beta.companieshouse.gov.uk/company/05640458">company name</a> or a <a href="http://beta.charitycommission.gov.uk/charity-details/?regid=200431&amp;subid=0">charity name</a>
-Different maps and possibly more data than the name will be needed to find the right entry.</p>
+<p>A map isn’t <a href="/patterns/canonical">canonical</a> in the sense that there may legitimately be more than one map for a given identifier,
+and may not be <a href="/patterns/authoritative">authoritative</a>, depending upon who keeps and maintains the data.</p>
 
-<p>A map may itself become the basis of a register.
-For example <a href="https://registers-history.herokuapp.com/local-authority-eng">the process</a> of establishing the <a href="https://local-authority-eng.register.gov.uk/">local authority (England) register</a> 
+<p>For example the word “Richmond” found in a document could identify a <a href="https://en.wikipedia.org/wiki/Richmond,_North_Yorkshire">town in Yorkshire</a>,
+a <a href="https://en.wikipedia.org/wiki/Richmond,_London">suburb of London</a>, a <a href="https://local-authority-eng.register.gov.uk/record/RIC">local authority in England</a>, a <a href="https://beta.companieshouse.gov.uk/company/05640458">company name</a> or a <a href="http://beta.charitycommission.gov.uk/charity-details/?regid=200431&amp;subid=0">charity name</a>.
+Different maps and possibly more context than just the name will be needed to find the right register and entry.</p>
+
+<p>A code found in a map may later become the key of a register.</p>
+
+<p>For example <a href="https://registers-history.herokuapp.com/local-authority-eng">the process</a> of establishing the <a href="https://local-authority-eng.register.gov.uk/">local authority (England) register</a> 
 created a <a href="https://github.com/openregister/local-authority-data/blob/master/maps/gss.tsv">GSS to local-authortity map</a>.
 It is highly likely this code will be the key for a local authority boundary register which will link to the local-authority-eng register,
-which point the map may be generated from the canonical registers.</p>
+which point the map may be derived from the canonical registers.</p>
 
 
 
@@ -148,7 +151,7 @@ which point the map may be generated from the canonical registers.</p>
 <h4>Part of:</h4>
 <ul>
 
-    <li><a href="/patterns/discovery-process">Discovery-process</a></li>
+    <li><a href="/patterns/seeding">Seeding</a></li>
 
 </ul>
 
