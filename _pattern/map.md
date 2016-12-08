@@ -1,7 +1,7 @@
 ---
 title: map
 topics:
-  - discovery-process
+  - seeding
 ---
 
 A [map](https://en.wikipedia.org/wiki/Associative_array) is a dataset which may be used to translate a name or code found in data in documents to the key used by a register.
@@ -21,10 +21,10 @@ code:
 | …      | …       |
 |--------+---------|
 
-A number of different maps may be generated as a part of [discovery process](discovery-process) for a register.
+A number of different maps may be generated as a part of [seeding](/patterns/seeding) a register.
 
-A map isn't [canonical](canonical) in the sense that there may legitimately be more than one map for a given identifier,
-and may not be authoritative, depending upon who keeps and maintains the data.
+A map isn't [canonical](/patterns/canonical) in the sense that there may legitimately be more than one map for a given identifier,
+and may not be [authoritative](/patterns/authoritative), depending upon who keeps and maintains the data.
 
 For example the word "Richmond" found in a document could identify a [town in Yorkshire](https://en.wikipedia.org/wiki/Richmond,_North_Yorkshire),
 a [suburb of London](https://en.wikipedia.org/wiki/Richmond,_London), a [local authority in England][local-authority-eng:RIC], a [company name][company:05640458] or a [charity name][charity:200431].
