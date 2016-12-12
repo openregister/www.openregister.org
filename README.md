@@ -26,3 +26,12 @@ The Heroku app name is `rda-publisher`. You can see the build logs by running
 If the build fails, it might be because a gem required by the project isn't installed on Heroku. To fix this, check out the code from Heroku and add to that projects `Gemfile`.
 
 This automated process can be bypassed by building on your local development environment and making a commit on the `gh-pages` branch.
+
+
+## TiddlyWiki
+
+Some of the text is being drafted using [TiddlyWiki](http://tiddlywiki.com/) in the [_wiki](_wiki) directory:
+
+    $ npm install -g tiddlywiki
+    $ tiddlywiki _wiki --server
+    $ open http://127.0.0.1:8080/
