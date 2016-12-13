@@ -1,0 +1,11 @@
+created: 20161213150434704
+modified: 20161213150518653
+tags: 
+title: Shapes
+type: text/x-markdown
+
+* How many [fields](#fields) should be in a register?
+* What is a field?
+* What field values should the register contain?
+* What type of information can be in a register? (lists, long text, etc)
+* What are enumerations, and should they always be their own register?

@@ -1,0 +1,19 @@
+created: 20161213150608868
+modified: 20161213150620571
+tags: 
+title: Process
+type: text/x-markdown
+
+## ‘onboarding’ a register. When is a ‘list’ a register and when isn’t it?
+
+* Something is normally a register if it is:
+	* Defied as a register of _things_ in legislation
+	* A clearly defined list of _things_ that are maintained by government as part of delivering services
+
+
+* Updating the data
+	* Data is updated by the person who’s job it is to maintain this data for government – the custodian – (or delegated to a team who reports to that person in some cases)
+	* It is the duty of the custodian to keep the register up to date
+
+* Splitting and merging. What happens when the shape of government changes?
+* Retiring a register: what is the SLA, how long should it be maintained for? Can TNA host them whilst being full featured?
