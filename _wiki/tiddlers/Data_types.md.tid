@@ -1,0 +1,7 @@
+created: 20161214115055030
+modified: 20161214115108884
+tags: 
+title: Data types
+type: text/x-markdown
+
+A field has a datatype associated with it. Data types can be very simple (a short piece of text like a name of a company) or complex, like a special link to a row in a different register (called a `curie`).

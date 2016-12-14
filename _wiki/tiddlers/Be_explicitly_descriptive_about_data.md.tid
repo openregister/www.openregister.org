@@ -1,0 +1,11 @@
+created: 20161214115019757
+modified: 20161214115043697
+tags: 
+title: Be explicitly descriptive about data
+type: text/x-markdown
+
+Because the register knows the type of data that is contained in a field, information about the data itself should be left out of the field. For example, a “price” field shouldn’t contain a currency symbol. If currency is needed, a new field should be added that links to a register where that currency is defined.
+
+Other examples of field definitions inside a field are ‘%’ symbols, units of measurement (inches as “, feet as ft, etc). This sort of information must be stored in it’s own field, not added to the field that contains the information.
+
+It is better to be more descriptive about data than less. Don’t make users guess the data types, explain it.

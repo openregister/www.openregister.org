@@ -1,0 +1,9 @@
+created: 20161214115136411
+modified: 20161214115147430
+tags: 
+title: How many fields should be in a register?
+type: text/x-markdown
+
+When creating a register, the number of fields must be limited so that a row only contains information:
+1. about a single thing, not things that relate to it
+2. that is either controlled by the custodian directly, or is a link to another register
