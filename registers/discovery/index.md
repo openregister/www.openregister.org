@@ -11,7 +11,7 @@ show_in_nav: false
 ## [{{ register[0] }}](https://{{ register[0] }}.{{phase}}.openregister.org)
 
 
-[View this record in the {{ phase }} register of registers](https://{{phase}}.discovery.openregister.org/record/{{ register[0] }})
+[View this record in the {{ phase }} register of registers](https://register.{{phase}}.openregister.org/record/{{ register[0] }})
 
 
 {{ register[1].text }}
