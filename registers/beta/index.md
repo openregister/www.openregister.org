@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Alpha Registers
+title: Beta Registers
 show_in_nav: false
 ---
 
 {% assign phase = 'beta' %}
 
-{% for register in site.data.discovery_register %}
+{% for register in site.data.beta_register %}
 
 ## [{{ register[0] }}](https://{{ register[0] }}.{{phase}}.openregister.org)
 
