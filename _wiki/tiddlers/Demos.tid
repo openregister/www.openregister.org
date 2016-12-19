@@ -1,0 +1,12 @@
+created: 20161219140917459
+modified: 20161219140921884
+title: Demos
+type: text/vnd.tiddlywiki
+
+<dl>
+<dt><a href="https://openregister-school-demo.herokuapp.com/">School finder</a></dt>
+<dd>A <a href="https://github.com/openregister/school-demo">Ruby on Rails application</a> to demonstrate the alpha school registers.</dd>
+
+<dt><a href="http://openregister-food-ratings-demo.herokuapp.com/">Food premises ratings</a></dt>
+<dd>A prototype <a href="https://github.com/openregister/food-ratings-demo">Python/Flask application</a> used during the discovery of potential food premises and ratings registers.</dd>
+</dl>

@@ -1,0 +1,24 @@
+created: 20161213080229131
+creator: psd
+modified: 20161219141247617
+modifier: psd
+name: territory
+title: www.openregister.org
+type: text/vnd.tiddlywiki
+
+This wiki is for collecting [[design patterns]] and other notes on how [[open registers|https://www.openregister.org]] are used.
+
+The source code and content for this wiki is open, and maintained in the [[www.openregister.org|https://github.org/openregister/www.openregister.org]] repository in the [[openregister GitHub organisation|https://github.org/openregister]].
+
+!! [[Guidance]]
+{{Guidance}}
+!! [[Custodians]]
+{{Custodians}}
+!! [[History]]
+{{History}}
+!! [[Demos]]
+{{Demos}}
+!! [[Blog posts]]
+{{Blog posts}}
+!! [[Presentations]]
+{{Presentations}}

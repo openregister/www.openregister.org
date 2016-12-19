@@ -1,0 +1,44 @@
+created: 20161212084511696
+creator: psd
+modified: 20161213164526572
+modifier: psd
+tags: seeding definition
+title: Map
+type: text/x-markdown
+
+A [map](https://en.wikipedia.org/wiki/Associative_array) is data which may be used to convert a name or a code found in existing data into a register [key](#key).
+
+For example, the [country register](https://country.register.gov.uk) key is the [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code,
+following HMG [open standards guidance for country codes](https://www.gov.uk/government/publications/open-standards-for-government/country-codes).
+
+The following map provides the country key for the alternative [ISO 3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
+codes:
+
+
+| alpha3 | country |
+|--------|---------|
+| AFG    | AF      |
+| ALB    | AB      |
+| DZA    | DZ      |
+| AND    | AD      |
+| …      | …       |
+
+
+A number of different maps for different codes may be generated as a part of [seeding](#seeding) a register.
+
+A map is not [canonical](#canonical) because there may legitimately be more than one map for a given identifier. A map may not be [authoritative](#authoritative), depending upon who keeps and maintains the data.
+
+For example the word "Richmond" found in a document could identify a [town in Yorkshire](https://en.wikipedia.org/wiki/Richmond,_North_Yorkshire),
+a [suburb of London](https://en.wikipedia.org/wiki/Richmond,_London), a [local authority in England][local-authority-eng:RIC], a [company name][company:05640458] or a [charity name][charity:200431].
+Different maps and possibly more context than just the name will be needed to find the right register and entry.
+
+A map may later become the basis of a new register, at which point the map will no longer need to be maintained as it can be derived from the links between registers.
+
+For example the process of [seeding](#seeding) the [local authority (England) register](#local-authority-eng) 
+created a [GSS to local-authortity map](https://github.com/openregister/local-authority-data/blob/master/maps/gss.tsv).
+It is highly likely this code will be the key for a local authority boundary register which will link to the [local-authority-eng](#local-authority-eng) register.
+
+
+[local-authority-eng:RIC]: https://local-authority-eng.register.gov.uk/record/RIC
+[company:05640458]: https://beta.companieshouse.gov.uk/company/05640458
+[charity:200431]: http://beta.charitycommission.gov.uk/charity-details/?regid=200431&subid=0

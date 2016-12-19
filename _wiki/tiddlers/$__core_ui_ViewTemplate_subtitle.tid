@@ -1,0 +1,14 @@
+created: 20161215072435541
+modified: 20161215072447178
+tags: $:/tags/ViewTemplate
+title: $:/core/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
+
+<$reveal type="nomatch" state=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+<div class="tc-subtitle">
+<$link to={{!!modifier}}>
+<$view field="modifier"/>
+</$link> <$view field="modified" format="date" template={{$:/language/Tiddler/DateFormat}}/>
+<$view field="register"/>
+</div>
+</$reveal>
