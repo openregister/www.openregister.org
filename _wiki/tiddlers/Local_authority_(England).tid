@@ -1,9 +1,12 @@
 created: 20161213171033932
 history: https://registers-history.herokuapp.com/local-authority-eng
-modified: 20161213172618702
-name: local-authority-eng
+modified: 20161219143259986
+name: Local authority (England)
 phase: beta
+register: local-authority-eng
+registry: department-for-communities-and-local-government
 tags: register history
 title: Local authority (England)
 type: text/vnd.tiddlywiki
 
+Local authorities in England
