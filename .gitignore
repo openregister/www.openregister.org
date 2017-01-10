@@ -6,4 +6,5 @@ vendor
 .DS_Store
 tmp
 *.swp
+node_modules
 Draft_of_*
