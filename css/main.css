@@ -53,10 +53,6 @@ header + main {
 
 }
 
-h1, h2, h3 {
-  font-weight: normal;
-}
-
 body > header h1 {
   font-weight: bold;
   font-size:3.2rem;
@@ -68,7 +64,6 @@ h2 {
     line-height: 1.4;
     margin-top:2.3125rem;
     margin-bottom:1.3125rem;
-    font-weight:normal;
 }
 h2 + * {
     margin-top:0.2em;
