@@ -12,6 +12,9 @@ redirect_from:
 underscore_: bug
 ---
 
+Registers are described by [Government Transformation Strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) as 
+“a national data infrastructure of registers (authoritative lists that are held once across government)”. The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the strategy cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
+
 ## Guidance
 
 Official <a href="https://www.gov.uk/government/collections/registers-guidance">guidance on registers</a> is published on <a href="https://www.gov.uk">GOV.UK</a>.
@@ -30,6 +33,7 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <dt><a href="https://www.gov.uk/guidance/using-registers-to-build-a-service">Using registers to build a service</a></dt>
 <dd>How government service teams can use registers to build digital services.</dd>
 </dl>
+
 
 ## Custodians
 
@@ -138,6 +142,10 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dd>How the Register Design Authority prioratised which registers to work on first.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/07/19/writing-an-introduction-to-registers/">Writing an introduction to registers</a></dt>
 <dd>The process of writing guidance for registers on GOV.UK.</dd>
+<dt><a href="https://data.blog.gov.uk/2017/01/23/making-registers-easier-to-copy/">Making registers easier to copy</dt>
+<dd>Evolving a single-file format for copying a register.</dd>
+<dt><a href="https://gdstechnology.blog.gov.uk/2017/02/03/providing-access-to-datasets-through-apis/">Providing access to datasets through APIs</a></dt>
+<dd>APIs and bulk data downloads are both valid ways of working with register data.</dd>
 </dl>
 
 
