@@ -35,44 +35,12 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 </dl>
 
 
-## Custodians
-
-<dl>
-<dt>Tony Worron, Foreign and Commonwealth Office</dt>
-<dd>
-<a href="http://blogs.fco.gov.uk/guestpost/2016/02/11/spreading-the-word-and-data-on-country-names/">Country names</a>,
-<a href="https://data.blog.gov.uk/2016/10/12/meet-the-custodian-alpha-territory-register/">Meet the custodian: alpha territory register</a>,
-<a href="https://data.blog.gov.uk/2016/12/19/territory-register-goes-into-beta/">Territory register goes into beta</a>
-</dd>
-
-<dt>Stephen McAllister, Department for Communities and Local Government</dt>
-<dd>
-<a href="https://data.blog.gov.uk/2016/09/07/local-authority-england-alpha-register/">Local authority England alpha register</a>,
-<a href="https://data.blog.gov.uk/2016/10/26/meet-the-custodian-of-the-beta-local-authority-england-register/">Meet the custodian of the beta local authority England register</a>
-</dd>
-
-<dt>Jonathan Smith, Animal and Plant Health Agency</dt>
-<dd>
-<a href="https://defradigital.blog.gov.uk/2017/02/17/notifiable-animal-diseases-register-goes-alpha/">Notifiable Animal Diseases Register goes Alpha</a>
-</dd>
-
-<dt>Andrew Thomson, Department for Education</dt>
-<dd><a href="https://data.blog.gov.uk/2016/11/29/the-register-of-schools-in-england-goes-into-alpha/">The register of schools in England goes into alpha</a></dd>
-</dl>
-
-## History pages
-<p>The shape of the data in a register is developed with a custodian, and in response to public feedback. The history page for a register documents this process.</p>
-<dl>
-<dt><a href="https://registers-history.herokuapp.com/country">Country</a></dt>
-<dt><a href="https://registers-history.herokuapp.com/territory">Territory</a></dt>
-<dt><a href="https://registers-history.herokuapp.com/local-authority-eng">Local Authority (England)</a></dt>
-<dt><a href="https://registers-history.herokuapp.com/school-eng">School (England)</a></dt>
-</dl>
-
-## Registers
+## Register dashboard
 <dl>
 <dt><a href="https://registers.cloudapps.digital/registers">Registers Dashboard</a></dt>
-<dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.
+<dd>The shape of the data in a register is developed with a custodian, and in response to public feedback. The history page for a register documents this process.
+
+Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.
 Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.
 Discovery are experimental, potential registers, which may not reach alpha.</dd>
 </dl>
@@ -104,7 +72,32 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 </dl>
 
 
-## Blog posts
+## Custodian blog posts
+
+<dl>
+<dt>Tony Worron, Foreign and Commonwealth Office</dt>
+<dd>
+<a href="http://blogs.fco.gov.uk/guestpost/2016/02/11/spreading-the-word-and-data-on-country-names/">Country names</a>,
+<a href="https://data.blog.gov.uk/2016/10/12/meet-the-custodian-alpha-territory-register/">Meet the custodian: alpha territory register</a>,
+<a href="https://data.blog.gov.uk/2016/12/19/territory-register-goes-into-beta/">Territory register goes into beta</a>
+</dd>
+
+<dt>Stephen McAllister, Department for Communities and Local Government</dt>
+<dd>
+<a href="https://data.blog.gov.uk/2016/09/07/local-authority-england-alpha-register/">Local authority England alpha register</a>,
+<a href="https://data.blog.gov.uk/2016/10/26/meet-the-custodian-of-the-beta-local-authority-england-register/">Meet the custodian of the beta local authority England register</a>
+</dd>
+
+<dt>Jonathan Smith, Animal and Plant Health Agency</dt>
+<dd>
+<a href="https://defradigital.blog.gov.uk/2017/02/17/notifiable-animal-diseases-register-goes-alpha/">Notifiable Animal Diseases Register goes Alpha</a>
+</dd>
+
+<dt>Andrew Thomson, Department for Education</dt>
+<dd><a href="https://data.blog.gov.uk/2016/11/29/the-register-of-schools-in-england-goes-into-alpha/">The register of schools in England goes into alpha</a></dd>
+</dl>
+
+## Team and other blog posts
 
 <p>The team regularly write about the users of registers and their needs on the
 <a href="https://gds.blog.gov.uk">GDS</a>,
