@@ -51,6 +51,11 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <a href="https://data.blog.gov.uk/2016/10/26/meet-the-custodian-of-the-beta-local-authority-england-register/">Meet the custodian of the beta local authority England register</a>
 </dd>
 
+<dt>Jonathan Smith, Animal and Plant Health Agency</dt>
+<dd>
+<a href="https://defradigital.blog.gov.uk/2017/02/17/notifiable-animal-diseases-register-goes-alpha/">Notifiable Animal Diseases Register goes Alpha</a>
+</dd>
+
 <dt>Andrew Thomson, Department for Education</dt>
 <dd><a href="https://data.blog.gov.uk/2016/11/29/the-register-of-schools-in-england-goes-into-alpha/">The register of schools in England goes into alpha</a></dd>
 </dl>
@@ -66,12 +71,10 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 
 ## Registers
 <dl>
-<dt><a href="{{ site.baseurl }}/registers/beta">Beta and live registers</a></dt>
-<dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.</dd>
-<dt><a href="{{ site.baseurl }}/registers/alpha">Registers in alpha</a></dt>
-<dd>Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.</dd>
-<dt><a href="{{ site.baseurl }}/registers/discovery">Registers in discovery</a></dt>
-<dd>Experimental, potential registers, which may not reach alpha.</dd>
+<dt><a href="https://registers.cloudapps.digital/registers">Registers Dashboard</a></dt>
+<dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.
+Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.
+Discovery are experimental, potential registers, which may not reach alpha.</dd>
 </dl>
 
 ## Documentation
