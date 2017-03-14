@@ -9,27 +9,20 @@ redirect_from:
   - /composition-of-registers
   - /how-registers-work
   - /list_of_registers
-underscore_: bug
 ---
 
 Registers are described by [Government Transformation Strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) as 
 “a national data infrastructure of registers (authoritative lists that are held once across government)”. The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the strategy cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
 
 ## Guidance
-
-Official <a href="https://www.gov.uk/government/collections/registers-guidance">guidance on registers</a> is published on <a href="https://www.gov.uk">GOV.UK</a>.
-
-
+<p>Official <a href="https://www.gov.uk/government/collections/registers-guidance">guidance on registers</a> is published on <a href="https://www.gov.uk">GOV.UK</a>.</p>
 <dl>
 <dt><a href="https://www.gov.uk/government/publications/registers/registers">An introduction to registers</a></dt>
 <dd>Find out more about how registers work and how they can benefit government service teams.</dd>
-
 <dt><a href="https://www.gov.uk/guidance/creating-a-register">Creating a register</a></dt>
 <dd>How you can work with Government Digital Service (GDS) to create a register.</dd>
-
 <dt><a href="https://www.gov.uk/guidance/registers-becoming-a-custodian">Becoming a custodian</a></dt>
 <dd>Find out how to become the custodian of a register and what the role involves.</dd>
-
 <dt><a href="https://www.gov.uk/guidance/using-registers-to-build-a-service">Using registers to build a service</a></dt>
 <dd>How government service teams can use registers to build digital services.</dd>
 </dl>
@@ -40,8 +33,8 @@ Official <a href="https://www.gov.uk/government/collections/registers-guidance">
 <dt><a href="https://registers.cloudapps.digital/registers">Registers Dashboard</a></dt>
 <dd>The shape of the data in a register is developed with a custodian, and in response to public feedback. The history page for a register documents this process.</dd>
 <dd>Beta registers have a stable shape, and long term commitment to being kept and maintained by a custodian.</dd>
-<dd>Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.
-Discovery are experimental, potential registers, which may not reach alpha.</dd>
+<dd>Alpha registers may have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.</dd>
+<dd>Discovery are experimental, potential registers, which may not reach alpha.</dd>
 </dl>
 
 ## Documentation
@@ -56,7 +49,6 @@ and helps you create your own implementation of the platform.</dd>
 </dl>
 
 ## Source code
-
 <p>The registers platform and associated products are being developed as open source software under the <a href="https://github.com/openregister">openregister</a> GitHub organisation.
 We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/master/pull-requests.md">contributions</a>.</p>
 <dl>
@@ -72,7 +64,6 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 
 
 ## Custodian blog posts
-
 <dl>
 <dt>Tony Worron, Foreign and Commonwealth Office</dt>
 <dd>
@@ -97,7 +88,6 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 </dl>
 
 ## Team and other blog posts
-
 <p>The team regularly write about the users of registers and their needs on the
 <a href="https://gds.blog.gov.uk">GDS</a>,
 <a href="https://data.blog.gov.uk">Government data</a>,
@@ -145,14 +135,12 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 
 
 ## Demos
-
 <dl>
 <dt><a href="https://openregister-school-demo.herokuapp.com/">School finder</a></dt>
 <dd>A <a href="https://github.com/openregister/school-demo">Ruby on Rails application</a> to demonstrate the alpha school registers.</dd>
 <dt><a href="http://openregister-food-ratings-demo.herokuapp.com/">Food premises ratings</a></dt>
 <dd>A prototype <a href="https://github.com/openregister/food-ratings-demo">Python/Flask application</a> used during the discovery of potential food premises and ratings registers.</dd>
 </dl>
-
 
 ## Presentations
 <dl>
