@@ -128,7 +128,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dd>How the Register Design Authority prioratised which registers to work on first.</dd>
 <dt><a href="https://data.blog.gov.uk/2016/07/19/writing-an-introduction-to-registers/">Writing an introduction to registers</a></dt>
 <dd>The process of writing guidance for registers on GOV.UK.</dd>
-<dt><a href="https://data.blog.gov.uk/2017/01/23/making-registers-easier-to-copy/">Making registers easier to copy</dt>
+<dt><a href="https://data.blog.gov.uk/2017/01/23/making-registers-easier-to-copy/">Making registers easier to copy</a></dt>
 <dd>Evolving a single-file format for copying a register.</dd>
 <dt><a href="https://gdstechnology.blog.gov.uk/2017/02/03/providing-access-to-datasets-through-apis/">Providing access to datasets through APIs</a></dt>
 <dd>APIs and bulk data downloads are both valid ways of working with register data.</dd>
