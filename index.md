@@ -92,6 +92,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <a href="https://gds.blog.gov.uk">GDS</a>,
 <a href="https://data.blog.gov.uk">Government data</a>,
 <a href="https://gdstechnology.blog.gov.uk">GDS technology</a>, and other blogs.</p>
+
 <dl>
 <dt><a href="https://gds.blog.gov.uk/2015/09/01/registers-authoritative-lists-you-can-trust/">Registers, authoritative lists you can trust</a></dt>
 <dd>Introducing the vision for registers following our discovery phase.</dd>
@@ -132,7 +133,6 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt><a href="https://gdstechnology.blog.gov.uk/2017/02/03/providing-access-to-datasets-through-apis/">Providing access to datasets through APIs</a></dt>
 <dd>APIs and bulk data downloads are both valid ways of working with register data.</dd>
 </dl>
-
 
 ## Demos
 <dl>
