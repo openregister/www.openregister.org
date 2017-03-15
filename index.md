@@ -11,7 +11,7 @@ redirect_from:
   - /list_of_registers
 ---
 
-Registers are described by the [government UK digital strategy 2017](https://www.gov.uk/government/publications/uk-digital-strategy) “a national data infrastructure of authoritative lists that are held once across government”.
+Registers are described by the [government UK digital strategy 2017](https://www.gov.uk/government/publications/uk-digital-strategy) as a national data infrastructure of authoritative lists that are held once across government.
 
 The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the [government transformation strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
 
