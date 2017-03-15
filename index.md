@@ -33,13 +33,13 @@ The [better use of data](https://www.gov.uk/government/publications/government-t
 <dl>
 <dt><a href="https://registers.cloudapps.digital/registers">Registers Dashboard</a></dt>
 <dd>The shape of the data in a register is developed with a custodian, and in response to public feedback. The history page for a register documents this process.</dd>
-<dt>[Beta registers](https://registers.cloudapps.digital/registers?phase=Beta)</dt>
+<dt><a href="https://registers.cloudapps.digital/registers?phase=Beta">Beta registers</a></dt>
 <dd>Have a stable shape, and long term commitment to being kept and maintained by a custodian.</dd>
-<dt>[Alpha registers](https://registers.cloudapps.digital/registers?phase=Alpha)</dt>
+<dt><a href="https://registers.cloudapps.digital/registers?phase=Alpha">Alpha registers</a></dt>
 <dd>May have limited content. Their shape may change as a result of working with the potential custodian and in response to wider feedback.</dd>
-<dt>[Discovery registers](https://registers.cloudapps.digital/registers?phase=Discovery)</dt>
+<dt><a href="https://registers.cloudapps.digital/registers?phase=Discovery">Discovery registers</a></dt>
 <dd>Experimental, potential registers containing data, which may not reach alpha.</dd>
-<dt>[Backlog registers](https://registers.cloudapps.digital/registers?phase=Backlog)</dt>
+<dt><a href="https://registers.cloudapps.digital/registers?phase=Backlog">Backlog registers</a></dt>
 <dd>Potential registers, prioritised for discovery.</dd>
 </dl>
 
