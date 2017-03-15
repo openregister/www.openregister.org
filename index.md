@@ -11,8 +11,10 @@ redirect_from:
   - /list_of_registers
 ---
 
-Registers are described by [Government Transformation Strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) as 
-“a national data infrastructure of registers (authoritative lists that are held once across government)”. The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the strategy cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
+Registers are described by the [government UK Digital Strategy 2017](https://www.gov.uk/government/publications/uk-digital-strategy) “a national data infrastructure of registers (authoritative lists that are held once across government)”.
+
+The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the 
+[Government Transformation Strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
 
 ## Guidance
 <p>Official <a href="https://www.gov.uk/government/collections/registers-guidance">guidance on registers</a> is published on <a href="https://www.gov.uk">GOV.UK</a>.</p>
