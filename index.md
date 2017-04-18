@@ -84,6 +84,23 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <a href="https://data.blog.gov.uk/2016/10/26/meet-the-custodian-of-the-beta-local-authority-england-register/">Meet the custodian of the beta local authority England register</a>
 </dd>
 
+<dt>Killie Mpopo</dt>
+<dd>
+<a href="https://data.blog.gov.uk/2017/03/20/creating-a-register-for-managing-water-levels/">Managing water levels (Internal Drainage Boards register)</a>
+</dd>
+
+<dt>Neil Williams, Cabinet Office</dt>
+<dd>
+<a href="https://data.blog.gov.uk/2017/03/27/the-register-of-government-organisations-is-now-in-alpha/">The register of government organisations is now in alpha</a>
+</dd>
+
+<dt>Thomas Moore, Cabinet Office</dt>
+<dd>
+<a href="https://data.blog.gov.uk/2017/03/31/introducing-the-register-of-government-service-domains/">Introducing the register of government service domains</a>
+</dd>
+
+<dt>
+
 <dt>Jonathan Smith, Animal and Plant Health Agency</dt>
 <dd>
 <a href="https://defradigital.blog.gov.uk/2017/02/17/notifiable-animal-diseases-register-goes-alpha/">Notifiable Animal Diseases Register goes Alpha</a>
@@ -92,6 +109,7 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <dt>Andrew Thomson, Department for Education</dt>
 <dd><a href="https://data.blog.gov.uk/2016/11/29/the-register-of-schools-in-england-goes-into-alpha/">The register of schools in England goes into alpha</a></dd>
 </dl>
+
 
 ## Team and other blog posts
 <p>The team regularly write about the users of registers and their needs on the
