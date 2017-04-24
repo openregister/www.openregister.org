@@ -99,8 +99,6 @@ We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/ma
 <a href="https://data.blog.gov.uk/2017/03/31/introducing-the-register-of-government-service-domains/">Introducing the register of government service domains</a>
 </dd>
 
-<dt>
-
 <dt>Jonathan Smith, Animal and Plant Health Agency</dt>
 <dd>
 <a href="https://defradigital.blog.gov.uk/2017/02/17/notifiable-animal-diseases-register-goes-alpha/">Notifiable Animal Diseases Register goes Alpha</a>
