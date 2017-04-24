@@ -1,0 +1,15 @@
+created: 20170113142156497
+modified: 20170113144319312
+tags: 
+title: Documentation
+type: text/vnd.tiddlywiki
+
+<dl>
+<dt><a href="http://open-registers-docs.readthedocs.io/en/latest/">API documentation</a></dt>
+<dd>Reference documentation and examples is maintained on <a href="http://open-registers-docs.readthedocs.io/en/latest/">readthedocs.io</a>.</dd>
+<dt><a href="https://openregister.github.io/specification/">Technical specification</a></dt>
+<dd>A technical specification for the openregister product, is being developed in the open on [[GitHub|https://github.com/openregister/specification]] formally defines the API,
+and helps you create your own implementation of the platform.</dd>
+<dt><a href="/patterns/">Register design patterns</a></dt>
+<dd>A wiki for sharing design patterns for using and shaping of registers, maintained on [[GitHub|https://github.com/openregister/www.openregister.org]].</dd>
+</dl>

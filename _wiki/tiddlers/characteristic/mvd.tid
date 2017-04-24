@@ -1,0 +1,11 @@
+created: 20170113145455408
+modified: 20170113145500475
+tags: characteristic
+title: 2. Registers represent a ‘minimum viable dataset’
+type: text/vnd.tiddlywiki
+
+A register only holds the data it was created to record, and nothing else. It never duplicates data held in other registers. Registers link to data in other registers to avoid the need for any duplication.
+
+To make those links work, each record in a register must have a stable, unique identifier. For example, registers should use the [[ISO-3166-alpha-2]] country code to unambiguously reference a country, relying upon the country register to hold the country’s official-name, local-name and other information for the code.
+
+Registers are long-lived because services and other registers depend on them. A register is just the data. It is the role of services to present data in a variety of different ways which make sense to users.

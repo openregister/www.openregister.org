@@ -1,9 +1,0 @@
-created: 20161214115117791
-modified: 20161214115127964
-tags: 
-title: What is a field?
-type: text/x-markdown
-
-A ‘field’ is sometimes called a ‘value’ and is a piece of information that in a spreadsheet would be held in a cell, or on a web site might appear in an input area on a form. 
-
-Fields have names, and store information of a particular type. For example a “date of birth” field would contain a date, or a “name” would include the text of someone’s name.

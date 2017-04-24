@@ -1,0 +1,19 @@
+created: 20170113145455408
+modified: 20170113145500475
+tags: characteristic
+title: 3. Registers are live lists, not simply published data
+type: text/vnd.tiddlywiki
+
+Registers are digital and may be accessed or searched by humans or machines using an API. The same data may already be periodically published as a document on a website, but that is not the same as operating a register.
+
+For example, it would be difficult for a developer to use the [[PDF]] of sports governing bodies as a selection on a visa application form. They would have to notice when the document is republished and repeat the same work of downloading and processing the document whenever it is updated.
+
+Making changes to a register shouldn’t take long; at most a matter of hours to give custodians the opportunity to check a new entry and guard the register against fraud and error.
+
+Registers should have a standard interface for reading and querying their contents, which follows the API principles set out in the service manual.
+
+There should be a clear process for challenging data held in a register with high standards for transparency, adjudications, and the processing of other issues discovered by users with register data.
+
+Register data should be available in a variety of different standard representations, including [[JSON]] for Web developers, comma-separated values ([[CSV]]) for people working with tabular data tools like spreadsheets, and RDF for those with needs for linked-data.
+
+A register API should be highly available. Public register data should be cacheable by intermediaries and web clients to enable the incorporation of the register directly in live services, as well as being easily downloaded in bulk for offline applications, and updated using a streaming API.

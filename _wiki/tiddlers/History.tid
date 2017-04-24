@@ -3,6 +3,6 @@ modified: 20161214090644216
 title: History
 type: text/vnd.tiddlywiki
 
-The shape of the data in a register is developed with a custodian, and in response to public feedback. The history page for a register documents this process.
+The shape of the data in a register is developed with a [[custodian]], and in response to public [[feedback]]. The history page for a register documents this process.
 
-{{||history-pages}}
+{{||template:history-list}}

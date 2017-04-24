@@ -1,12 +1,14 @@
+color: #2372b5;
 created: 20161213171033932
+domain: .register.gov.uk
 history: https://registers-history.herokuapp.com/local-authority-eng
-modified: 20161219143259986
+modified: 20170111081344551
 name: Local authority (England)
 phase: beta
 register: local-authority-eng
 registry: department-for-communities-and-local-government
 tags: register history
-title: Local authority (England)
+title: register:local-authority-eng
 type: text/vnd.tiddlywiki
 
 Local authorities in England

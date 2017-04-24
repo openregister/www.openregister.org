@@ -1,0 +1,4 @@
+title: $:/core/ui/ViewTemplate/link
+tags: $:/tags/ViewTemplate
+
+<a href="{{!!link}}">{{!!link}}</a>

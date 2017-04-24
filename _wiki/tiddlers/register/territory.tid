@@ -2,6 +2,7 @@ created: 20161213173637339
 history: https://registers-history.herokuapp.com/territory
 modified: 20161213173711692
 tags: history register
-title: Territory
+title: register:territory
+name: Territory
 type: text/vnd.tiddlywiki
 

@@ -1,0 +1,18 @@
+created: 20170113141930452
+modified: 20170113142053868
+tags: 
+title: Source code
+type: text/vnd.tiddlywiki
+
+The [[registers platform]] and associated products are being developed as open source software under the <a href="https://github.com/openregister">openregister</a> ~GitHub organisation. We welcome feedback and <a href="https://github.com/alphagov/styleguides/blob/master/pull-requests.md">contributions</a>.
+
+<dl>
+<dt><a href="https://github.com/openregister/openregister-java">Java openregister</a></dt>
+<dd>The implementation of the server product used by the register.gov.uk platform.</dd>
+<dt><a href="https://github.com/openregister/deployment">Deployment scripts</a></dt>
+<dd>Deployment and other scripts used to operate the platform</dd>
+<dt><a href="https://github.com/openregister?utf8=%E2%9C%93&amp;q=-data">Data repositories</a></dt>
+<dd>A collection of repositories used to prepare register data during the discovery and alpha phases.</dd>
+<dt><a href="https://github.com/openregister?utf8=%E2%9C%93&amp;q=-demo">Demonstrations</a></dt>
+<dd>Prototypes used to test the shape of registers during the discovery and alpha phases.</dd>
+</dl>

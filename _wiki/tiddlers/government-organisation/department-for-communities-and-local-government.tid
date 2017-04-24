@@ -2,12 +2,13 @@ abbr: DCLG
 color: #ffffff
 created: 20161215071049761
 government-organisation: department-for-communities-and-local-government
-icon: org_crest
+icon: crest:hmg
 link: https://www.gov.uk/government/organisations/department-for-communities-and-local-government
 modified: 20161215071131722
 register: government-organisation
 tags: Publisher GOV.UK [[Ministerial department]]
-title: Department for Communities and Local Government
+title: government-organisation:department-for-communities-and-local-government
+name: Department for Communities and Local Government
 type: text/vnd.tiddlywiki
 
 <<<

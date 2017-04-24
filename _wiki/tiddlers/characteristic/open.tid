@@ -1,0 +1,16 @@
+created: 20170113145455408
+modified: 20170113145500475
+tags: characteristic
+title: 6. Registers are clearly categorised as open, shared or private
+type: text/vnd.tiddlywiki
+
+The privacy of a register should be clear, and either open, shared or private:
+
+* open registers are public. The data may be accessed, copied and derived freely, by anyone, either as single register entries or as a complete register, with clear licensing terms designed for reuse
+* shared registers allow access to a single register entry. There will be some form of access control, such as having an access token, paying a small fee, or signing-in in with GOV.UK Verify
+* private registers contain sensitive information which cannot be accessed directly by services. They may be able to provide answers to simple questions, subject to access control such as “Is the registered keeper of this boat over 21 years of age?” without revealing further details about the individual
+* a closed register contains data private to a single organisation, is locked away, and not connected directly to a digital service
+
+Following the Identity Assurance Principles means we don’t anticipate a single register of people, but registers may list people against specific roles. For example, DVLA should continue to maintain a register of drivers and a register of keepers of a vehicle.
+
+Public registers should not reference private registers. For example, whilst the headteacher of a school may expect to appear in a public register of educational establishments, and have their name appear on a sign outside the school, they wouldn’t expect their passport, driving licence, tax reference codes or National Insurance number to be made public.

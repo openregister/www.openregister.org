@@ -1,0 +1,7 @@
+tags: characteristic
+title: 4. Registers use standard names consistently with other registers
+type: text/vnd.tiddlywiki
+
+Wherever possible a register reuses standard names for fields to enable discovery — find all registers containing a “company” field, and search — find all the records in all public registers containing “school:1234” or “company:9876”.
+
+The data held in a register may [[evolve|Evolution and extensibility]] over time: new fields may be added to new entries in a register so long as they have a sensible default value for entries, and existing field names are not used for a new, different purpose.

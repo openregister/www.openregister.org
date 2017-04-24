@@ -1,0 +1,15 @@
+created: 20170111082304981
+modified: 20170111082325401
+tags: 
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[tag[_template]removeprefix[template:]addprefix[template/]]
+[tag[characteristic]removeprefix[characteristic:]addprefix[characteristic/]]
+[tag[constraint]removeprefix[constraint:]addprefix[constraint/]]
+[tag[field]removeprefix[field:]addprefix[field/]]
+[tag[register]removeprefix[register:]addprefix[register/]]
+[tag[registry]removeprefix[registry:]addprefix[registry/]]
+[tag[term]removeprefix[term:]addprefix[term/]]
+[!has[draft.of]]

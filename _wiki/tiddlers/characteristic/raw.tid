@@ -1,0 +1,7 @@
+created: 20170113145455408
+modified: 20170113145500475
+tags: characteristic
+title: 7. Registers contain raw not derived data
+type: text/vnd.tiddlywiki
+
+Data held in a register should be factual raw data, not informational content, or counts, statistics, and other forms of derived data.

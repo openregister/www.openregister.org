@@ -1,0 +1,11 @@
+created: 20161214085210144
+modified: 20170113141523586
+tags: _template
+title: template:history-list
+type: text/vnd.tiddlywiki
+
+<dl>
+<$list filter="[tag[history]sort[]]">
+   <dt><a href={{!!history}}><$view field="name"/></a></dt>
+</$list>
+</dl>
