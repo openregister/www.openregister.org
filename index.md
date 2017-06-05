@@ -11,9 +11,13 @@ redirect_from:
   - /list_of_registers
 ---
 
-Registers are described by the [government UK digital strategy 2017](https://www.gov.uk/government/publications/uk-digital-strategy) as a national data infrastructure of authoritative lists that are held once across government.
+The UK digital strategy describes registers as a national data infrastructure of authoritative lists that are held once across government.
 
-The [better use of data](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-better-use-of-data) section of the [government transformation strategy 2017 to 2020](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020) cites [a list of potential data registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
+If you’re a government service provider, you can use an API to [get access to current and reliable data from registers](https://registers.cloudapps.digital/).
+
+If you’re interested in managing a register, you can find out [how to become a custodian](https://www.gov.uk/guidance/registers-becoming-a-custodian).
+
+The better use of data section of the government transformation strategy 2017 to 2020 includes [a list of potential registers](https://www.gov.uk/government/publications/government-transformation-strategy-2017-to-2020/government-transformation-strategy-appendix-list-of-potential-data-registers).
 
 ## Guidance
 <p>Official <a href="https://www.gov.uk/government/collections/registers-guidance">guidance on registers</a> is published on <a href="https://www.gov.uk">GOV.UK</a>.</p>
@@ -45,13 +49,11 @@ The [better use of data](https://www.gov.uk/government/publications/government-t
 
 ## Documentation
 <dl>
-<dt><a href="http://open-registers-docs.readthedocs.io/en/latest/">API documentation</a></dt>
-<dd>Reference documentation and examples is maintained on <a href="http://open-registers-docs.readthedocs.io/en/latest/">readthedocs.io</a>.</dd>
+<dt><a href="https://registers-docs.cloudapps.digital">API documentation</a></dt>
+<dd>API reference documentation and examples for service teams</dd>
 <dt><a href="https://openregister.github.io/specification/">Technical specification</a></dt>
 <dd>A technical specification for the openregister product, developed <a href="https://github.com/openregister/specification">GitHub</a> formally defines the API,
 and helps you create your own implementation of the platform.</dd>
-<dt><a href="{{ site.baseurl }}/patterns/">Register design patterns</a></dt>
-<dd>A wiki for sharing design patterns for using and shaping of registers, maintained on <a href="https://github.com/openregister/www.openregister.org">GitHub</a>.</dd>
 </dl>
 
 ## Source code
